@@ -53,19 +53,19 @@ https://github.com/user-attachments/assets/2780eb3f-66b7-45c9-97f3-6d8449880a53
 
 The pipeline follows a modular approach and consists of the following stages, aligned with the Medallion Architecture:
 
-1. Bronze Layer (Raw Data)
+1. Bronze Layer (Raw Data): 
 
-Data Ingestion: Data is ingested from various sources and stored in Azure Data Lake as raw, untransformed data. This includes files in formats like JSON, CSV, and Parquet.  
+Data Ingestion: Data is ingested from the GitHub repository using a JSON configuration file. This file defines the data sources (Relative URLs of the files on GitHub). The data is fetched dynamically by the pipeline created in Azure Data Factory (ADF) and stored in Azure Data Lake as raw, untransformed data.
    
 Tools Used: Azure Data Factory (ADF) for orchestrating the ingestion process.  
 
-3. Silver Layer (Cleansed/Enriched Data)
+3. Silver Layer (Cleansed/Enriched Data): 
 
 Data Transformation: The raw data is processed and cleaned using Azure Databricks and Apache Spark. This involves basic transformations like filtering, deduplication, and enrichment (e.g., adding metadata or joining datasets).  
   
 Tools Used: Databricks for transformation with PySpark for data processing and analysis.   
 
-5. Gold Layer (Curated/Analytical Data)
+5. Gold Layer (Curated/Analytical Data): 
 
 Data Warehousing: After transformations, the clean and aggregated data is loaded into Azure Synapse Analytics. This data is optimized for querying and analytics.  
   
