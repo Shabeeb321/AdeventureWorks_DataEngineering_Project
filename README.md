@@ -32,6 +32,13 @@ The pipeline follows a modular approach and consists of the following stages:
 
 https://github.com/user-attachments/assets/876ebb3a-dbee-47a0-b8ba-d0ebfd2ddcd1
 
+# Key Features
+
+a. Scalable Data Pipeline: Designed to scale based on data volume and processing needs.  
+b. Real-Time Data Processing: Utilizes Apache Spark for real-time data transformation and analysis.  
+c. Optimized Data Warehouse: Efficient storage and querying of data in Synapse Analytics.  
+d. Azure Integration: Fully integrated with Azure services for a seamless cloud-based data engineering solution.
+
 
 
 https://github.com/user-attachments/assets/2780eb3f-66b7-45c9-97f3-6d8449880a53
