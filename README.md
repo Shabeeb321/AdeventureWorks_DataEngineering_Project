@@ -9,13 +9,13 @@ https://github.com/user-attachments/assets/e97d4b10-c53f-4f34-825b-240068f55b44
 
 The primary objective of this project is to design and implement a scalable and dynamic data pipeline that can handle big data and perform real-time processing. The architecture includes the following key Azure components:
 
-a) Azure Data Factory (ADF): Orchestrates and automates data movement and transformation.  
+a. Azure Data Factory (ADF): Orchestrates and automates data movement and transformation.  
   
-b) Azure Data Lake: Provides a secure and scalable data storage layer for raw data.
+b. Azure Data Lake: Provides a secure and scalable data storage layer for raw data.
   
-c) Databricks & Apache Spark: Handles data transformation and real-time processing.  
+c. Databricks & Apache Spark: Handles data transformation and real-time processing.  
   
-d) Azure Synapse Analytics: Serves as the analytics platform for data warehousing and querying.
+d. Azure Synapse Analytics: Serves as the analytics platform for data warehousing and querying.
 
 
 https://github.com/user-attachments/assets/6b7bc529-1686-494d-b630-de67b49e6ced
