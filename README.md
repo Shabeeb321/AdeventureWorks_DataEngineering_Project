@@ -25,8 +25,11 @@ https://github.com/user-attachments/assets/6b7bc529-1686-494d-b630-de67b49e6ced
 The pipeline follows a modular approach and consists of the following stages:
 
 1. Data Ingestion: Data is ingested from various sources and stored in Azure Data Lake.
+   
 2. Data Transformation: Databricks & Apache Spark are used to perform data cleaning, transformation, and real-time processing.
+   
 3. Data Warehousing: Transformed data is stored in Azure Synapse Analytics for optimized querying and analytics.
+   
 4. Analytics & Reporting: Synapse Analytics is used to run analytical queries and generate insights from the processed data.
 
 
@@ -35,8 +38,11 @@ https://github.com/user-attachments/assets/876ebb3a-dbee-47a0-b8ba-d0ebfd2ddcd1
 # Key Features
 
 a. Scalable Data Pipeline: Designed to scale based on data volume and processing needs.  
+  
 b. Real-Time Data Processing: Utilizes Apache Spark for real-time data transformation and analysis.  
+  
 c. Optimized Data Warehouse: Efficient storage and querying of data in Synapse Analytics.  
+   
 d. Azure Integration: Fully integrated with Azure services for a seamless cloud-based data engineering solution.
 
 
