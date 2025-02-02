@@ -1,6 +1,6 @@
 # End-to-End Data Engineering Project: Azure Data Pipeline with ADF, Databricks & Synapse Analytics
 
-This project demonstrates the development of a comprehensive dynamic data pipeline built using Microsoft Azure services. It covers the entire ETL process, from data ingestion and transformation to analytics and visualization. The pipeline leverages Azure Data Factory (ADF), Azure Data Lake, Databricks, Synapse Analytics, and Apache Spark to process and analyze large datasets efficiently.
+This project demonstrates the development of a comprehensive dynamic data pipeline built using Microsoft Azure services. It covers the entire ETL process, from data ingestion and transformation to analytics. The pipeline leverages Azure Data Factory (ADF), Azure Data Lake, Databricks, Synapse Analytics, and Apache Spark to process and analyze large datasets efficiently.
 
 
 https://github.com/user-attachments/assets/e97d4b10-c53f-4f34-825b-240068f55b44
