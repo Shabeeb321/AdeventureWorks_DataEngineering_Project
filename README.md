@@ -56,16 +56,19 @@ The pipeline follows a modular approach and consists of the following stages, al
 1. Bronze Layer (Raw Data)
 
 Data Ingestion: Data is ingested from various sources and stored in Azure Data Lake as raw, untransformed data. This includes files in formats like JSON, CSV, and Parquet.  
+   
 Tools Used: Azure Data Factory (ADF) for orchestrating the ingestion process.  
 
 3. Silver Layer (Cleansed/Enriched Data)
 
 Data Transformation: The raw data is processed and cleaned using Azure Databricks and Apache Spark. This involves basic transformations like filtering, deduplication, and enrichment (e.g., adding metadata or joining datasets).  
+  
 Tools Used: Databricks for transformation with PySpark for data processing and analysis.   
 
 5. Gold Layer (Curated/Analytical Data)
 
 Data Warehousing: After transformations, the clean and aggregated data is loaded into Azure Synapse Analytics. This data is optimized for querying and analytics.  
+  
 Tools Used: Azure Synapse Analytics for creating structured, analytical tables for reporting and further business intelligence analysis.
 
 
